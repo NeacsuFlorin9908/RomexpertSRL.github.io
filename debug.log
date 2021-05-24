@@ -1,0 +1,6 @@
+[0407/132932.991:ERROR:scoped_process_suspend.cc(30)] NtSuspendProcess: An attempt was made to access an exiting process.  (0xc000010a)
+[0407/132933.020:ERROR:process_info.cc(116)] ReadProcessMemory bool __cdecl crashpad::`anonymous-namespace'::ReadStruct<struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits32>>(void *,unsigned __int64,struct crashpad::process_types::PEB<struct crashpad::process_types::internal::Traits32> *): Numai o parte din cererea ReadProcessMemory sau WriteProcessMemory a fost îndeplinitã. (0x12B)
+[0407/132933.020:ERROR:process_info.cc(559)] ReadProcessData failed
+[0407/132933.020:ERROR:process_reader_win.cc(233)] ReadMemory at 0x6db67dc8 of 12 bytes failed: Numai o parte din cererea ReadProcessMemory sau WriteProcessMemory a fost îndeplinitã. (0x12B)
+[0407/132933.020:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[0407/132933.020:WARNING:crash_report_exception_handler.cc(60)] ProcessSnapshotWin::Initialize failed
